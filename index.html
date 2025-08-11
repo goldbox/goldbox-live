@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoldBox</title>
+  <meta name="theme-color" content="#0f0f0f" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" href="/assets/logo-192.png" />
+  <link rel="apple-touch-icon" href="/assets/logo-192.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body class="theme-standard">
+  <header class="topbar">
+    <div class="brand">
+      <img src="/assets/logo-192.png" alt="GoldBox" class="logo" />
+      <span>GoldBox</span>
+    </div>
+    <div class="switcher">
+      <button id="btnStandard" class="chip active">Standard</button>
+      <button id="btnFounder" class="chip">Founder’s Edition</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1 id="heroTitle">Digital Gold for Everyone</h1>
+      <p id="heroSub">Buy from $10. Vault automatically at 1g. Redeem 10g GoldBox bar.</p>
+      <div class="cta">
+        <a class="btn-primary" href="#buy">Buy Gold</a>
+        <a class="btn-secondary" href="#learn">Learn</a>
+      </div>
+      <div class="pwa-tip" id="pwaTip">Install the app: Add to Home Screen</div>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <h3>Live Price</h3>
+        <div id="price">Loading…</div>
+      </article>
+      <article class="card">
+        <h3>Vault</h3>
+        <p>Insured custody via Brinks. Auto‑vault after 1g.</p>
+      </article>
+      <article class="card">
+        <h3>Referral</h3>
+        <p>Invite friends. Earn $0.50 in gold after their first buy.</p>
+      </article>
+      <article class="card">
+        <h3>Wishlist</h3>
+        <p>Handcrafted jewelry. Get restock alerts.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>© 2025 GoldBox. All rights reserved.</small>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
