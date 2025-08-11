@@ -1,0 +1,5 @@
+/* Toggle by adding class .theme-founders on <body> */
+.theme-founders{--bg:#0a0a09; --fg:#f1efe9; --muted:#c2bdad; --gold:#ffcc66; --card: #12110e}
+.theme-founders .btn-primary{background:linear-gradient(135deg,#ffd77a,#c9a240)}
+.theme-founders .chip.active{color:#1b1405;background:linear-gradient(135deg,#ffd77a,#c9a240);border-color:transparent}
+.theme-founders .brand span{letter-spacing:.6px}
