@@ -1,0 +1,10 @@
+.goldbox-test/
+  index.html
+  app.js
+  styles.css
+  founders.css
+  manifest.webmanifest
+  sw.js
+  assets/
+    logo-192.png
+    logo-512.png
